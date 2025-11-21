@@ -182,7 +182,7 @@ export default function HomePage() {
               </Button>
 
               <Link href="/leaderboard" className="flex-1">
-                <Button structure="base" variant="secondary" fullWidth className="text-2xl py-6">
+                <Button structure="outline" fullWidth className="text-2xl py-6">
                   查看全服排行
                 </Button>
               </Link>
