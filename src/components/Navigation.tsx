@@ -36,9 +36,7 @@ export default function Navigation() {
                 </span>
                 <Button
                   onClick={() => window.location.reload()}
-                  structure="base"
-                  size="sm"
-                  variant="secondary"
+                  structure="outlined"
                 >
                   断开连接
                 </Button>
@@ -46,7 +44,7 @@ export default function Navigation() {
             ) : (
               <Button
                 onClick={() => setShowModal(true)}
-                structure="base"
+                structure="outlined"
                 className="bg-gradient-to-r from-yellow-500 to-orange-600 hover:from-yellow-600 hover:to-red-600 font-bold"
               >
                 Connect Wallet
